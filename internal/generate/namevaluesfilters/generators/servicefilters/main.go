@@ -6,7 +6,7 @@ package main
 import (
 	"bytes"
 	"go/format"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"sort"
 	"strings"

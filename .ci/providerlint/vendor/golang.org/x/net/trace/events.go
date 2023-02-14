@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"html/template"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/http"
 	"runtime"
 	"sort"

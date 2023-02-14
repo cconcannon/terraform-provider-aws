@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/url"
 	"strings"
 

@@ -9,7 +9,7 @@
 //     package main
 //
 //     import (
-//     	"log"
+//     	log "github.com/sirupsen/logrus"
 //     	"github.com/hashicorp/hcl/v2/hclsimple"
 //     )
 //

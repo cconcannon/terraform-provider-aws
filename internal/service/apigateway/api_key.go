@@ -3,7 +3,7 @@ package apigateway
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"

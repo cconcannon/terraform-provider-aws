@@ -3,7 +3,7 @@ package inspector2
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go-v2/aws"

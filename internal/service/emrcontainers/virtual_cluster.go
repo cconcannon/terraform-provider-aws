@@ -2,7 +2,7 @@ package emrcontainers
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"time"
 

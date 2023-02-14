@@ -3,7 +3,7 @@ package msgpack
 import (
 	"encoding"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"sync"
 

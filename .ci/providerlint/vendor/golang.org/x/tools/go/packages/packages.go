@@ -16,7 +16,7 @@ import (
 	"go/token"
 	"go/types"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
 	"strings"

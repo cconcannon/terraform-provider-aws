@@ -5,7 +5,7 @@ import (
 	"context"
 	"crypto/rand"
 	"errors"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math/big"
 
 	"github.com/aws/aws-sdk-go/aws"

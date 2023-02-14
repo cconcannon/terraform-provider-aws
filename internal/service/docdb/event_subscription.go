@@ -2,7 +2,7 @@ package docdb
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/hc-install/errors"

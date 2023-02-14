@@ -3,7 +3,7 @@ package datasync
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net"
 	"net/http"
 	"time"

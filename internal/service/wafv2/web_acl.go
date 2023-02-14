@@ -3,7 +3,7 @@ package wafv2
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"strings"
 	"time"

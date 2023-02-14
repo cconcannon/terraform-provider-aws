@@ -1,7 +1,7 @@
 package ec2_test
 
 import (
-	"log"
+	log "github.com/sirupsen/logrus"
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

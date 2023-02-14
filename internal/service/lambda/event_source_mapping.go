@@ -3,7 +3,7 @@ package lambda
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"sort"
 	"strings"

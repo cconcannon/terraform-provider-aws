@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 
 	"github.com/aws/aws-sdk-go-v2/aws"

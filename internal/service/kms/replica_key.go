@@ -2,7 +2,7 @@ package kms
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	"github.com/aws/aws-sdk-go/aws"

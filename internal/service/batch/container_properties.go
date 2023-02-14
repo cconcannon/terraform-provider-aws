@@ -3,7 +3,7 @@ package batch
 import (
 	"bytes"
 	"encoding/json"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 
 	"github.com/aws/aws-sdk-go/aws"

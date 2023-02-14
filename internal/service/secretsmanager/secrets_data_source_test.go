@@ -2,7 +2,7 @@ package secretsmanager_test
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"testing"
 	"time"
 

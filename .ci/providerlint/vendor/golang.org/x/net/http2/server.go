@@ -33,7 +33,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math"
 	"net"
 	"net/http"

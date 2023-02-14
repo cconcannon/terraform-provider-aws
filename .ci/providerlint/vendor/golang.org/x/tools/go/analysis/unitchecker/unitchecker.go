@@ -39,7 +39,7 @@ import (
 	"go/types"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
 	"reflect"

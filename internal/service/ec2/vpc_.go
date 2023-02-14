@@ -3,7 +3,7 @@ package ec2
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 	"strings"
 

@@ -3,7 +3,7 @@ package firehose
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"strings"
 	"time"

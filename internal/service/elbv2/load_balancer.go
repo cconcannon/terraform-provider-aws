@@ -5,7 +5,7 @@ import ( // nosemgrep:ci.aws-sdk-go-multiple-service-imports
 	"context"
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"strconv"
 	"time"

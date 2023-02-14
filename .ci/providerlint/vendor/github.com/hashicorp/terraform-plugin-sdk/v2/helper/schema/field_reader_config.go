@@ -2,7 +2,7 @@ package schema
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 	"strings"
 	"sync"

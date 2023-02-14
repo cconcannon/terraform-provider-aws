@@ -7,7 +7,7 @@ import (
 	_ "embed"
 	"flag"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 
 	"github.com/hashicorp/terraform-provider-aws/internal/generate/common"

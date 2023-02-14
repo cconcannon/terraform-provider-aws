@@ -3,7 +3,7 @@ package plugin
 import (
 	"encoding/binary"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net"
 	"sync"
 	"sync/atomic"

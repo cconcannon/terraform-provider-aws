@@ -5,7 +5,7 @@ package memorydb
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	"github.com/aws/aws-sdk-go/aws"

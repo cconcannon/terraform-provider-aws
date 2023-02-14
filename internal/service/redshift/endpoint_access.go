@@ -2,7 +2,7 @@ package redshift
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 
 	"github.com/aws/aws-sdk-go/aws"

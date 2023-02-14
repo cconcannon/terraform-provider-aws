@@ -2,7 +2,7 @@ package eks
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"time"
 

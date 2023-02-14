@@ -7,7 +7,7 @@ package analysisflags
 import (
 	"flag"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"sort"
 	"strings"

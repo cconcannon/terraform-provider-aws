@@ -2,7 +2,7 @@ package elb_test
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"testing"
 
 	"github.com/aws/aws-sdk-go/service/elb"

@@ -2,7 +2,7 @@ package route53
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 
 	"github.com/aws/aws-sdk-go/aws"

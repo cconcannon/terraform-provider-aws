@@ -3,7 +3,7 @@ package ec2_test
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"testing"
 

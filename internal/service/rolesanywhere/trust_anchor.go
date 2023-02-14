@@ -3,7 +3,7 @@ package rolesanywhere
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/aws/aws-sdk-go-v2/service/rolesanywhere"
 	"github.com/aws/aws-sdk-go-v2/service/rolesanywhere/types"

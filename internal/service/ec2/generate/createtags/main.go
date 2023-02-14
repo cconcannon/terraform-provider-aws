@@ -9,7 +9,7 @@ import (
 	"flag"
 	"fmt"
 	"go/format"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"text/template"
 )

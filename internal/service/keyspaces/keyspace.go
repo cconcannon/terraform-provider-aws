@@ -2,7 +2,7 @@ package keyspaces
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"time"
 

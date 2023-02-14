@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"strings"
 	"sync"

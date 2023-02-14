@@ -3,7 +3,7 @@ package rds_test
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"regexp"
 	"testing"
