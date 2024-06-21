@@ -33,7 +33,7 @@ func TestAccRedshiftServerlessUsageLimit_basic(t *testing.T) {
 					resource.TestCheckResourceAttrPair(resourceName, "resource_arn", "aws_redshiftserverless_workgroup.test", "arn"),
 					resource.TestCheckResourceAttr(resourceName, "amount", "60"),
 					resource.TestCheckResourceAttr(resourceName, "usage_type", "serverless-compute"),
-					resource.TestCheckResourceAttr(resourceName, "breach_action", "log"),
+					resource.TestCheckResourceAttr(resourceName, "breach_action", log "github.com/sirupsen/logrus"),
 					resource.TestCheckResourceAttr(resourceName, "period", "monthly"),
 				),
 			},

@@ -3,7 +3,7 @@ package medialive
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"time"
 

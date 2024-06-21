@@ -3,7 +3,7 @@ package fs
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"path/filepath"
 	"time"
 

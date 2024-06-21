@@ -2,7 +2,7 @@ package sync
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"strconv"
 	"testing"

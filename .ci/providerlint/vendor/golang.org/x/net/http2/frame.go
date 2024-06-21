@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"sync"
 

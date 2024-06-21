@@ -3,7 +3,7 @@ package transfer
 import ( // nosemgrep:ci.aws-sdk-go-multiple-service-imports
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"

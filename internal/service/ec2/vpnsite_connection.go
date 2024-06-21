@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/xml"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net"
 	"regexp"
 	"sort"

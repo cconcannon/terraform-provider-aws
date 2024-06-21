@@ -3,7 +3,7 @@ package route53resolver
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"time"
 

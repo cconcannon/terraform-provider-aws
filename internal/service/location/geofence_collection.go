@@ -3,7 +3,7 @@ package location
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"

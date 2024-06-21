@@ -3,7 +3,7 @@ package ec2
 // ec2 has no action for Describe() to see if IPAM delegated admin has already been assigned
 import ( // nosemgrep:ci.aws-sdk-go-multiple-service-imports
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"

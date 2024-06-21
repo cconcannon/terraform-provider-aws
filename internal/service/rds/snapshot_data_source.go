@@ -2,7 +2,7 @@ package rds
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 	"time"
 

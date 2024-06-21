@@ -1,7 +1,7 @@
 package logging
 
 import (
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	tfaddr "github.com/hashicorp/terraform-registry-address"

@@ -3,7 +3,7 @@ package provider
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"regexp"
 	"time"

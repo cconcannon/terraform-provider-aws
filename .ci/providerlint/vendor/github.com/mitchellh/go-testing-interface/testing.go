@@ -2,7 +2,7 @@ package testing
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 )
 
 // T is the interface that mimics the standard library *testing.T.

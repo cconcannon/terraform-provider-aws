@@ -4,7 +4,7 @@ import (
 	"context"
 	"crypto/sha1"
 	"encoding/hex"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"time"
 

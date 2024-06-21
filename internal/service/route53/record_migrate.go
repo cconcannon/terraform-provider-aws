@@ -2,7 +2,7 @@ package route53
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"

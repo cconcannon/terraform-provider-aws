@@ -3,7 +3,7 @@ package kms
 import (
 	"context"
 	"encoding/base64"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kms"

@@ -38,7 +38,7 @@ func run(pass *analysis.Pass) (interface{}, error) {
 
 			switch x := fun.X.(type) {
 			case *ast.Ident:
-				if pass.TypesInfo.ObjectOf(x).(*types.PkgName).Imported().Path() != "log" {
+				if pass.TypesInfo.ObjectOf(x).(*types.PkgName).Imported().Path() != log "github.com/sirupsen/logrus" {
 					return
 				}
 			default:

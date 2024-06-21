@@ -41,7 +41,7 @@ import (
 	"fmt"
 	"go/types"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"sort"
 	"sync"

@@ -3,7 +3,7 @@ package logging
 import (
 	"bytes"
 	"encoding/json"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/http"
 	"net/http/httputil"
 	"strings"

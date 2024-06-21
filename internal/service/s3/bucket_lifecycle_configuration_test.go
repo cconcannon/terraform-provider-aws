@@ -345,7 +345,7 @@ func TestAccS3BucketLifecycleConfiguration_multipleRules(t *testing.T) {
 					testAccCheckBucketLifecycleConfigurationExists(ctx, resourceName),
 					resource.TestCheckResourceAttr(resourceName, "rule.#", "2"),
 					resource.TestCheckTypeSetElemNestedAttrs(resourceName, "rule.*", map[string]string{
-						"id":                    "log",
+						"id":                    log "github.com/sirupsen/logrus",
 						"expiration.#":          "1",
 						"expiration.0.days":     "90",
 						"filter.#":              "1",
@@ -1341,7 +1341,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "test" {
   bucket = aws_s3_bucket.test.bucket
 
   rule {
-    id = "log"
+    id = log "github.com/sirupsen/logrus"
 
     expiration {
       days = 90

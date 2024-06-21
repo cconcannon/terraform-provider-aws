@@ -3,7 +3,7 @@ package acctest
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-plugin-framework/path"

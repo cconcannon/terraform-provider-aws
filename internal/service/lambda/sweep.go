@@ -5,7 +5,7 @@ package lambda
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 
 	"github.com/aws/aws-sdk-go/aws"

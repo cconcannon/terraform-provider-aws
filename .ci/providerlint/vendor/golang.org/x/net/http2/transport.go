@@ -16,7 +16,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math"
 	mathrand "math/rand"
 	"net"

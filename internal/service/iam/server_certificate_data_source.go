@@ -2,7 +2,7 @@ package iam
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 	"strings"
 	"time"

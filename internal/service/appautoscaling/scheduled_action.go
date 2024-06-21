@@ -2,7 +2,7 @@ package appautoscaling
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 	"time"
 

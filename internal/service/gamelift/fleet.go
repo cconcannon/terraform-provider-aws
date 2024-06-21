@@ -3,7 +3,7 @@ package gamelift
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"time"
 

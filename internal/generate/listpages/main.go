@@ -11,7 +11,7 @@ import (
 	"go/ast"
 	"go/format"
 	"html/template"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
 	"sort"

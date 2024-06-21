@@ -3,7 +3,7 @@ package hclog
 import (
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 )
 
 // NewNullLogger instantiates a Logger for which all calls

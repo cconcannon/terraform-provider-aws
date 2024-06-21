@@ -8,7 +8,7 @@ import (
 	"encoding/csv"
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
 	"regexp"

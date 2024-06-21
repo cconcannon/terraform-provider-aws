@@ -3,7 +3,7 @@ package rds
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	rds_sdkv2 "github.com/aws/aws-sdk-go-v2/service/rds"

@@ -2,7 +2,7 @@ package amplify
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"strings"
 

@@ -3,7 +3,7 @@ package yamux
 import (
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"time"
 )

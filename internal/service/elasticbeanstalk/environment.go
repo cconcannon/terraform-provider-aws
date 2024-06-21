@@ -3,7 +3,7 @@ package elasticbeanstalk
 import ( // nosemgrep:ci.aws-sdk-go-multiple-service-imports
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"sort"
 	"strings"

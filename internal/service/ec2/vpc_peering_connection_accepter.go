@@ -2,7 +2,7 @@ package ec2
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"

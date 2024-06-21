@@ -15,7 +15,7 @@ import (
 	"go/token"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"strconv"
 	"strings"

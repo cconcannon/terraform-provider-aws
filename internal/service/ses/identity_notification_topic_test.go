@@ -3,7 +3,7 @@ package ses_test
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 	"testing"
 

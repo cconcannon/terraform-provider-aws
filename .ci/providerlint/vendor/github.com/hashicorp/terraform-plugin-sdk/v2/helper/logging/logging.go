@@ -3,7 +3,7 @@ package logging
 import (
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"strings"
 	"syscall"

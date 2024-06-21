@@ -6,7 +6,7 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math/rand"
 	"os"
 	"strconv"

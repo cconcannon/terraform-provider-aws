@@ -3,7 +3,7 @@ package dax
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"sort"
 	"strings"

@@ -3,7 +3,7 @@ package elasticbeanstalk_test
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"testing"
 
 	"github.com/aws/aws-sdk-go/aws"

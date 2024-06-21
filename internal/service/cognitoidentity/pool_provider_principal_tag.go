@@ -3,7 +3,7 @@ package cognitoidentity
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 
 	"github.com/aws/aws-sdk-go/aws"

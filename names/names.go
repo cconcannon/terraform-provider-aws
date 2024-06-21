@@ -17,7 +17,7 @@ import (
 	_ "embed"
 	"encoding/csv"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 )
 
